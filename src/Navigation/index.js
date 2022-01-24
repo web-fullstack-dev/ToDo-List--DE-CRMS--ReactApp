@@ -7,12 +7,12 @@ export default () => {
     <nav>
       <List>
         <Item>
-          <StyledNavLink to={toTasks()}>Tasks</StyledNavLink>
+          <StyledNavLink to={toTasks()}>Aufgaben</StyledNavLink>
         </Item>
       </List>
       <List>
         <Item>
-          <StyledNavLink to={toAuthor()}>About the author</StyledNavLink>
+          <StyledNavLink to={toAuthor()}>Über den Autor</StyledNavLink>
         </Item>
       </List>
     </nav>
